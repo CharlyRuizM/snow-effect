@@ -80,3 +80,7 @@ function updateSnowFall  () {
 
 setInterval(updateSnowFall,50);
 createSnowFlakes();
+
+const btaHola = document.getElementById('btaHola')
+
+btaHola.addEventListener('click', function(){ alert("Hello World!"); });
